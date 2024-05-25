@@ -1,0 +1,36 @@
+.comment {
+  background-color: #202020;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  white-space: pre-wrap;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+.comment-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.comment-controls button {
+
+}
+
+.child-comment {
+  margin-left: 2rem;
+  background-color: #2e2e2e;
+}

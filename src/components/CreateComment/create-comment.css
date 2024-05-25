@@ -1,0 +1,10 @@
+.new-comment-input {
+  width: 60em;
+  height: 6em;
+  max-width: 100em;
+  max-height: 20em;
+  background-color: gray;
+  border: 2px solid rgb(88, 88, 88);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}

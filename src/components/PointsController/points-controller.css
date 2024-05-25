@@ -1,0 +1,31 @@
+.points-controller {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 4rem;
+  background-color: grey;
+  height: 2.25rem;
+}
+
+.points {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+}
+
+/* .points-controller button {
+  width: 40px;
+  height: 40px;
+} */
+
+.points-controller button:hover {
+  border-radius: 4rem;
+  background-color: rgb(117, 117, 117);
+}
+
+.points-controller button img {
+  width: 20px;
+  height: 20px;
+}
